@@ -12,7 +12,7 @@ function SignIn() {
                 <p className='mt-4'>Our experts, are qualified, and capable to make
                     your needs sumptous.</p>
             </div>
-            <Link to={''} className="mt-[25%] bg-green-600 text-white font-semibold w-[80%] m-auto p-[10px] rounded-lg text-center">Sign In</Link>
+            <Link to={'/signIn'} className="mt-[25%] bg-green-600 text-white font-semibold w-[80%] m-auto p-[10px] rounded-lg text-center">Sign In</Link>
         </div>
     )
 }
