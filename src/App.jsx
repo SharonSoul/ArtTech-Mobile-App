@@ -7,6 +7,7 @@ import SignIn from './component/Layout/SignIn'
 import SignInForm from './component/Layout/SignInForm'
 import Dashboard from './component/Layout/Main/Dashboard'
 import Category from './component/Layout/Main/Container/Category'
+import Profile from './component/Layout/Main/Profile'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
       <Route path='signIn' element={<SignInForm/>}/>
       <Route path='home' element={<Dashboard/>}/>
       <Route path='category' element={<Category/>}/>
+      <Route path='profile' element={<Profile/>}/>
     </Routes>
     </>
   )

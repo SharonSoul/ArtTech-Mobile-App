@@ -45,7 +45,7 @@ const Dashboard = () => {
                 <Link to="">
                     <img src={images.star} alt="" />
                 </Link>
-                <Link to="">
+                <Link to="/profile">
                     <img src={images.profile} alt="" />
                 </Link>
             </div>
