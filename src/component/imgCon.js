@@ -9,6 +9,10 @@ import category from "../assets/category.svg"
 import home from "../assets/home.svg"
 import profile from "../assets/profile.svg"
 import star from "../assets/star.svg"
+import msgIcon from "../assets/msgIcon.svg"
+import loveIcon from "../assets/loveIcon.svg"
+import profilePic from "../assets/profilePic.png"
+import Question from "../assets/Question.svg"
 
 
 export default {
@@ -23,4 +27,8 @@ export default {
     home,
     profile,
     star,
+    msgIcon,
+    loveIcon,
+    profilePic,
+    Question,
 }
