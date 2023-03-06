@@ -36,7 +36,7 @@ const Dashboard = () => {
             </div>
             <div className='h-24'></div>
             <div className='flex  w-[100%] justify-between p-4 bg-white fixed bottom-0 '>
-                <Link to=" " className=' '>
+                <Link to="/home" className=' '>
                     <img src={images.home} alt="" />
                 </Link>
                 <Link to="/category" className=''>
